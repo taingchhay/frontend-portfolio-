@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucky Draw</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Lucky Draw</h1>
+    <div class="input-section">
+      <label for="prizes">Enter Number of Prizes:</label>
+      <input type="number" id="prizes" placeholder="Scan or enter number of prizes">
+      <button onclick="runLuckyDraw()">Start Draw</button>
+    </div>
+    <div class="results">
+      <h2>Lucky Numbers:</h2>
+      <p id="luckyNumbers">10, 20, 30</p>
+      <h2>Winners:</h2>
+      <p id="winners">No winners yet.</p>
+      <h2>Total Participants:</h2>
+      <p id="totalParticipants">2300</p>
+    </div>
+  </div>
+  <script src="js.js"></script>
+</body>
+</html>
